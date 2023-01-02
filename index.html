@@ -1,0 +1,22 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <title> Made Basket Counter </title>
+    </head>
+    <body>
+        <div id="app">
+            <h1>Baskets Made</h1>
+            <h2 id="counter">0/0</h2>
+            <button id="shot-made" onclick="incrementMake()">MADE</button>
+            <button id="shot-total" onclick="incrementTotal()">MISS</button>
+                <div>
+                    <button id="save-btn" onclick="save()">SAVE</button>
+                </div>
+            <p id="save-el">Previous stats: </p>
+            <p id="percent"> Last perecntage: N/A </p>
+            <button id="reset-btn" onclick="window.location.reload()">RESET</button>
+
+            <script src="index.js">        </script>
+        </div>
+    </body>
+</html>
